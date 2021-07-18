@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# vim: set fileencoding=utf-8 :
+# vim: set et ts=4 sw=4:
 # -*- coding:utf-8 -*-
 # by 'hollowman6' from Lanzhou University(兰州大学)
 

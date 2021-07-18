@@ -21,7 +21,7 @@
 
 当计算WES GPA时自动输入课程名，学分和成绩。
 
-此程序使用Python的selenium库，使用前请确保电脑上已经安装了Google Chrome浏览器，并且在程序执行目录下放置了[Chrome Driver](https://chromedriver.chromium.org)
+此程序使用Python的selenium库，使用前请确保电脑上已经安装了Google Chrome浏览器，并且在程序执行目录下放置了[Chrome Driver](https://chromedriver.chromium.org)。
 
 ## 使用方法
 
@@ -61,7 +61,7 @@ Using selenium to realize the function. Before using, make sure that Google Chro
 The grade file should be in csv format without header like:
 
 ```text
-title, credit, grade
+title,credit,grade
    ...
 ```
 
@@ -69,7 +69,7 @@ Make sure that the grade is ranged between 0 and 100.
 
 [Example grade file](grade.csv)
 
-run the [script](Auto-WES-iGPA-Calculator.py), then enter the grade file location (empty to be `grade.csv`).
+Run the [script](Auto-WES-iGPA-Calculator.py), then enter the grade file location (empty to be `grade.csv`).
 
 Afterwards, input and submit relevant information in the opened browser (WES iGPA Calculator) first, the programme will automatically fill when needed.
 
